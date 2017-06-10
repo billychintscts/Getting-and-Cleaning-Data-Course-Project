@@ -1,5 +1,6 @@
 # Couursea - Getting and Cleaning Data Course Project 
-This is the course project for Getting and Cleaning Data course on Coursera. Code is written in R in file. Source file is run_analysis.R. 
+This is the course project for Getting and Cleaning Data course on Coursera. Code is written in R in file. Source file isrun_analysis.R. 
+
 Background:
 ==========
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
