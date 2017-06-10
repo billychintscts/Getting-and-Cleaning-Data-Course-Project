@@ -7,17 +7,17 @@ This is the course project for Getting and Cleaning Data course on Coursera. Cod
 3.	Load activity, subject and feature info. Read data from the files into the variables.
  - Read the Activity files.
  -	Read the Subject files.
-#o	Read Features files.
+ -	Read Features files.
 4.	Merges the training and the test sets to create one data set.
-o	Concatenate the data tables by rows.
-o	set names to variables.
-o	Merge columns to get the data frame Data for all data.
+-	Concatenate the data tables by rows.
+-	set names to variables.
+-	Merge columns to get the data frame Data for all data.
 5.	Extracts only the measurements on the mean and standard deviation for each measurement.
-o	Subset Name of Features by measurements on the mean and standard deviation.
-o	Subset the data frame Data by selected names of Features.
+-	Subset Name of Features by measurements on the mean and standard deviation.
+-	Subset the data frame Data by selected names of Features.
 6.	Uses descriptive activity names to name the activities in the data set.
-o	Read descriptive activity names from activity_labels.txt
-o	Factorize variable activity in the data frame Data using descriptive activity names.
+-	Read descriptive activity names from activity_labels.txt
+-	Factorize variable activity in the data frame Data using descriptive activity names.
 7.	Appropriately labels the data set with descriptive variable names.
 8.	Creates a independent tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
 The output file is tidydata.txt
