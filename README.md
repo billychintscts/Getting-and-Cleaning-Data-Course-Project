@@ -1,5 +1,5 @@
 # Couursea - Getting and Cleaning Data Course Project 
-This is the course project for Getting and Cleaning Data course on Coursera. Code is written in R in file. Source file isrun_analysis.R. 
+This is the course project for Getting and Cleaning Data course on Coursera.
 
 Background:
 ==========
