@@ -1,4 +1,3 @@
-# Getting-and-Cleaning-Data-Course-Project
 # Couursea - Getting and Cleaning Data Course Project 
 This is the course project for Getting and Cleaning Data course on Coursera. Code is written in R in file. Source file is run_analysis.R. This R script does the following things:
 1.	Download the dataset if it does not already exist in the working directory.
