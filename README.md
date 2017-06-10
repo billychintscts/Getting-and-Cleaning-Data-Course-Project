@@ -1,6 +1,6 @@
 # Couursea - Getting and Cleaning Data Course Project 
 This is the course project for Getting and Cleaning Data course on Coursera. Code is written in R in file. Source file is run_analysis.R. This R script does the following things:
-1.	Download the dataset if it does not already exist in the working directory.
+1.	Download the dataset if it does not exist
 -	Check if zip has already been downloaded in ./Data directory?
 -	Check if zip has already been unzipped?
 2.	List all the files of UCI HAR Dataset folder The files that will be used to load data are listed as follows:test/subject_test.txt test/X_test.txt test/y_test.txt train/subject_train.txt train/X_train.txttrain/y_train.txt
@@ -20,4 +20,4 @@ This is the course project for Getting and Cleaning Data course on Coursera. Cod
 -	Factorize variable activity in the data frame Data using descriptive activity names.
 7.	Appropriately labels the data set with descriptive variable names.
 8.	Creates a independent tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
-The output file is tidydata.txt
+9. Submit the output file is tidydata.txt
