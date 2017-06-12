@@ -4,10 +4,10 @@
 The first stage is reading in all of the data. Assigned proper labels, converted to a comma-separated data set.
 
 A data table with subject and test numbers. The various columns from the X_test file are added. The colnames are assigned to the provided features data. The following in then performed on both the training and the test data:
-•Tidy up header names and removes extraneous numbers
-•Read in the values
-•(1st run only) Set up initial data.table with subject and test values
-•Adds the columns from X_z where z is test or train.
+- Tidy up header names and removes extraneous numbers
+- Read in the values
+- (1st run only) Set up initial data.table with subject and test values
+- Adds the columns from X_z where z is test or train.
 
 Merged the two tables, one on top of the other. ALl measurements which are not means or standard deviations were removed. The columns are reordered slightly.
 
