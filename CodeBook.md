@@ -5,37 +5,44 @@ Identifiers
 ===========
 - subject  - The ID of the test subject
 - activity  - The type of activity performed when the corresponding measurements were taken
-  one of the following:
-  "walking"=1, "walking_upstairs" = 2, "walking_downstairs" = 3, "sitting" = 4, "standing" = 5, "laying" = 6
+
+Labels
+======
+1 - "walking"
+2 - "walking_upstairs"
+3 - "walking_downstairs"
+4 - "sitting"
+5 - "standing"
+6 - "laying"
 
 Measurements
 ============
 Values between -1 and 1 representing a variety of recorded data. Means of repeated data were taken (ie where subject and test were both the same over multiple rows). No other numerical manipulation took place.
 
-tbodyacc-mean()-x
- tbodyacc-mean()-y
- tbodyacc-mean()-z
- tbodyacc-std()-x
- tbodyacc-std()-y
- tbodyacc-std()-z
- tgravityacc-mean()-x
- tgravityacc-mean()-y
- tgravityacc-mean()-z
- tgravityacc-std()-x
- tgravityacc-std()-y
- tgravityacc-std()-z
- tbodyaccjerk-mean()-x
- tbodyaccjerk-mean()-y
- tbodyaccjerk-mean()-z
- tbodyaccjerk-std()-x
- tbodyaccjerk-std()-y
- tbodyaccjerk-std()-z
- tbodygyro-mean()-x
- tbodygyro-mean()-y
- tbodygyro-mean()-z
- tbodygyro-std()-x
- tbodygyro-std()-y
- tbodygyro-std()-z
+- tbodyacc-mean()-x
+- tbodyacc-mean()-y
+- tbodyacc-mean()-z
+- tbodyacc-std()-x
+- tbodyacc-std()-y
+- tbodyacc-std()-z
+- tgravityacc-mean()-x
+- tgravityacc-mean()-y
+- tgravityacc-mean()-z
+- tgravityacc-std()-x
+- tgravityacc-std()-y
+- tgravityacc-std()-z
+- tbodyaccjerk-mean()-x
+- tbodyaccjerk-mean()-y
+- tbodyaccjerk-mean()-z
+- tbodyaccjerk-std()-x
+- tbodyaccjerk-std()-y
+- tbodyaccjerk-std()-z
+- tbodygyro-mean()-x
+- tbodygyro-mean()-y
+- tbodygyro-mean()-z
+- tbodygyro-std()-x
+- tbodygyro-std()-y
+- tbodygyro-std()-z
  tbodygyrojerk-mean()-x
  tbodygyrojerk-mean()-y
  tbodygyrojerk-mean()-z
