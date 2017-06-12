@@ -1,5 +1,6 @@
 # run_analyis.R
 <b>combined()<b>
+
 The first stage is reading in all of the data. Assigned proper labels, converted to a comma-separated data set.
 
 A data table with subject and test numbers. The various columns from the X_test file are added. The colnames are assigned to the provided features data. The following in then performed on both the training and the test data:
