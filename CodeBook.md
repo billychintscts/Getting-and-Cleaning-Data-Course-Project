@@ -6,15 +6,6 @@ Identifiers
 - subject  - The ID of the test subject
 - activity  - The type of activity performed when the corresponding measurements were taken
 
-Labels
-======
-1 - "walking"
-2 - "walking_upstairs"
-3 - "walking_downstairs"
-4 - "sitting"
-5 - "standing"
-6 - "laying"
-
 Measurements
 ============
 Values between -1 and 1 representing a variety of recorded data. Means of repeated data were taken (ie where subject and test were both the same over multiple rows). No other numerical manipulation took place.
