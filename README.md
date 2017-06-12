@@ -22,13 +22,13 @@ The header names from dt is taken to produce a new, empty table. A vector with t
 An empty vector is created in which to hold the indices of rows where subject an test are both identical. All rows are then looped through, including the final row.
 
 For every record/row:
-•Checks whether the test columns in the two rows of interest are identical AND if the subject columns are also identical.
-•If identical, then add the current row number to the list of identical rows
-•If non identical, then still add the current row number to the list Indicating the penultimate and final entries
+- Checks whether the test columns in the two rows of interest are identical AND if the subject columns are also identical.
+- If identical, then add the current row number to the list of identical rows
+- If non identical, then still add the current row number to the list Indicating the penultimate and final entries
 
 For every column of every record/row:
-•Take the mean over all the rows stored in values
-•Add these new mean values to the new table, set the subject and test values, then reset the values vector and start again.
+- Take the mean over all the rows stored in values
+- Add these new mean values to the new table, set the subject and test values, then reset the values vector and start again.
 
 This occurs for each row, and each column for each row, iterating over the entire data.table row by row.
 
